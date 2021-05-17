@@ -1,0 +1,77 @@
+
+miParrafo {
+  width: 2em; // 1em = 30px, 2em = 60px
+}
+
+tuParrafo{
+  width: 2rem; // 1rem = 16px, 2rem = 32px
+}
+
+article[class ='caja1']{
+  border: 4px dotted red;
+  display: inline-block;
+  height: 200px;
+  width: 400px;
+  text-align: justify;
+  padding: 5px;
+  background: orange;
+}
+.caja1{
+  margin: 20px 20px 20px 20px;
+}
+article[class ='caja2']{
+  border: 4px;
+  border-style: double;
+  border-color: blue;
+  display: inline-block;
+  height: 200px;
+  width: 400px;
+  text-align: justify;
+  padding: 10px;
+}
+.caja2{
+  margin:20px 20px;
+}
+article[class ='caja3']{
+  border: 4px groove yellow;
+  display: inline-block;
+  height: 200px;
+  width: 400px;
+  text-align: center;
+  padding: 10px;
+  text-align: left;
+  padding: 15px;
+}
+
+article[class ='caja4']{
+  border: 4px inset orange;
+  display: inline-block;
+  height: 200px;
+  width: 400px;
+  text-align: right;
+  padding: 20px;
+}
+article[class ='caja5']{
+  border: 4px outset cyan;
+  display: inline-block;
+  height: 200px;
+  width: 400px;
+}
+article[class ='caja6']{
+  border: 4px ridge magenta;
+  display: inline-block;
+  height: 200px;
+  width: 400px;
+}
+article[class ='caja7']{
+  border: 4px solid black;
+  display: inline-block;
+  height: 200px;
+  width: 400px;
+}
+article[class ='caja8']{
+  border: 4px dashed;
+  display: inline-block;
+  height: 200px;
+  width: 400px;
+}

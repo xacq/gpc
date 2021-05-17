@@ -1,0 +1,24 @@
+table{
+  width: 50%;
+  border-collapse: collapse;
+}
+table, td, th{
+  border: 1px solid black;
+}
+td,th{
+  width: 100px;
+  height: 30px;
+}
+th{
+  text-align: right;
+  vertical-align: top;
+}
+
+td{
+  text-align: left;
+  vertical-align: bottom;
+}
+
+tr:nth-child(odd){
+  background-color: #D1D1D1;
+}
