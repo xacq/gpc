@@ -1,0 +1,14 @@
+div {
+  border: 1px solid black;
+  width: 150px;
+  height: 100px;
+  background-color: cyan;
+  margin-top: 60px;
+  margin-left: 90px;
+}
+
+#elemento {
+  transform:  perspective(1000px)
+              rotateX(-30deg)
+              rotateY(45deg);
+}

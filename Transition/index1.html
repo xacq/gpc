@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width:device-width, user-scalable=no">
+    <title>Animacion tipo Transition</title>
+    <style media="screen">
+      #contenedor{
+        width: 1000px;
+        height: 600px;
+        border: 2px solid;
+        margin: 0 auto;
+        background-color: #DBFFF1;
+        text-align: center;
+        transition: background 1s;
+        animation: miAnimacion 3s infinite;
+      }
+      @-webkit-keyframes miAnimacion{
+        from{
+          transform: rotate(45deg);
+        }
+        to{
+          height: 0;
+        }
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <section id="contenedor">
+
+    </section>
+  </body>
+</html>

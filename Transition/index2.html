@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width:device-width, user-scalable=no">
+    <title>Animacion tipo Transition</title>
+    <style media="screen">
+      #contenedor{
+        width: 1000px;
+        height: 600px;
+        border: 2px solid;
+        margin: 0 auto;
+        background-color: orange;
+        text-align: center;
+        transition: background 1s;
+        animation: miAnimacion 3s infinite;
+      }
+      .circulo{
+          width: 100px;
+          height: 100px;
+          background-color: yellow;
+          border-radius: 50px;
+          margin: 2vh;
+          float: left;
+          animation: circles 10s infinite;
+      }
+      @-webkit-keyframes circles{
+        0%{
+          opacity: 0;
+        }
+        25%{
+          opacity: 0.25;
+          float: right;
+        }
+        50%{
+          opacity: 0.50;
+          float: left;
+        }
+        75%{
+          opacity: 0.75;
+          float: right;
+        }
+        100%{
+          opacity: 1;
+          float:left;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section id="contenedor">
+      <div class="circulo">
+      </div>
+      <div class="circulo">
+      </div>
+      <div class="circulo">
+      </div>
+      <div class="circulo">
+      </div>
+    </section>
+  </body>
+</html>

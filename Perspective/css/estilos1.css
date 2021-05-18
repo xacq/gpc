@@ -1,0 +1,20 @@
+div {
+  border: 1px solid black;
+}
+
+.contenedor {
+      width: 300px;
+      height: 400px;
+      margin-top: 40px;
+      margin-left: 90px;
+      perspective: 8000px;
+      perspective-origin: bottom;
+}
+
+#elemento {
+  width: 150px;
+  height: 100px;
+  background-color: cyan;
+  margin-top: 50px;
+  transform: rotateX(-30deg) rotateY(45deg);
+}
