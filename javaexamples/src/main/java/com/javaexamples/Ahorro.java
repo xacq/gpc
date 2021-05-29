@@ -5,17 +5,29 @@ package com.javaexamples;
 este es un programa que permite verificar el ahorro en un anio con tasa fija*/
 public class Ahorro {
     public static void main(String[] args) {
-        double ahorroAnual=0, ahorroMensual=1, ahorroTotal=0;
+        double ahorro_anual, ahorro_diario; 
         int i;
-        for (i=1; i<=12; i++) {
-            System.out.println("TRANSFERENCIA Nro. " + i +" : ");
-            for (int j=1;j<30;j++){
-                ahorroMensual=(0.01 * ahorroMensual)+ahorroMensual;
-            }
-            System.out.println("Ahorro "+1+" mes(es): $" + ahorroMensual);
-            ahorroAnual=ahorroMensual + (0.01 * Math.pow(3,i));
-            ahorroTotal = ahorroTotal + ahorroAnual;
+        ahorro_anual = 0;
+        for (i=1; i<=365; i++) {
+            
+            System.out.print("ESTE ES EL PROCESO #" + i + " :");
+            
+            double prueba= Math.pow(3,i);
+            ahorro_anual=ahorro_anual + (0.01 * prueba);
+            
+            ahorro_diario=ahorro_anual;
+            System.out.println("Valor de ahorro diario: " + ahorro_diario);
+            System.out.println();
         }
-        System.out.println("Ahorro anual: $" + ahorroTotal);
+        System.out.println("Valor de ahorro anual: " + ahorro_anual);
     }
 }
+
+
+
+
+
+
+
+
+
