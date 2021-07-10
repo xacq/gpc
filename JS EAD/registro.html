@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>EAD - Registro</title>
+</head>
+
+<body>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom ">
+        <div class="my-0 mr-md-auto">
+            <div class="site-title">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            </div>
+        </div>
+        <nav class="my-2 my-md-0 mr-md-3">
+            <a class="p-2" href="index.html">Início</a>
+            <a class="p-2" href="proximos.html">Próximos Eventos</a>
+            <a class="p-2" href="pasados.html">Eventos Pasados</a>
+        </nav>
+        <nav>
+            <a class="btn gradient-bg" href="registro.html">Registro</a>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="px-3 py-3 pb-md-4 mx-auto text-center">
+            <h1 class="h1">Registro</h1>
+        </div>
+        <form id="formulario">
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="nombres">Nombre Completo</label> <span class="text-danger" id="errornombres"></span>
+                    <input type="text" class="form-control" id="nombres" placeholder="Nombres y Apellidos...">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label> <span class="text-danger" id="errorEmail"></span>
+                    <input type="email" class="form-control" id="email" placeholder="Email...">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="contrasena">Contraseña</label> <span class="text-danger" id="errorContrasena"></span>
+                    <input type="password" class="form-control" id="contrasena" placeholder="Contraseña...">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="confirmacion">Contraseña (Confirmación)</label> <span class="text-danger" id="errorConfirmacion"></span>
+                    <input type="password" class="form-control" id="confirmacion" placeholder="Confirmar contraseña...">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="usuario">Tipo de Usuario:</label> <span class="text-danger" id="errorTipo"></span>
+                    <select class="form-control" id="usuario">
+                      <option value="-1" selected>Seleccione...</option>
+                      <option value="1">Estudiante</option>
+                      <option value="2">Profesor</option>
+                      <option value="2">Representante</option>
+                      <option value="3">Otro...</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="acepto">
+                    <label class="form-check-label" for="acepto">
+              Acepto los términos y condiciones <span class="text-danger" id="errorAcepto"></span>
+            </label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn gradient-bg" onclick="return validar(this.form)">Enviar</button>
+        </form>
+
+    </div>
+
+
+    <footer class="site-footer" class="pt-2 my-2 border-top text-center">
+        <p>
+            Derechos Reservados @2020
+        </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/registro.js"></script>
+</body>
+
+</html>
