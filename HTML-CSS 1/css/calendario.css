@@ -1,0 +1,32 @@
+
+div{
+    width: 500px;
+    margin:0px auto;
+}
+
+h1{
+    text-align: center;
+    color: darkorange;
+    background-color: black;
+}
+
+ol{
+    list-style: none;
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 1px;
+}
+
+li{
+    text-align: center;
+}
+
+.firstday{
+    grid-column-start: 5;
+    
+}
+.day{
+    background: darkorange;
+    color:whitesmoke;
+    text-align: center;
+}

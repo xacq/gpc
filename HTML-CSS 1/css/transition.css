@@ -1,0 +1,17 @@
+.item{
+    background:tomato;
+    width: 400px;
+    height: 400px;
+    margin:20px auto;
+    clip-path: circle(10% at center); /*at top left or other*/
+    /*transition: background-color, width 2s;*/
+    transition-property: clip-path; /*atrapa el evento*/
+    transition-duration: 3s;
+    transition-timing-function: ease; /*ease-in ease-in-out ease-out linear*/
+    transition-delay: 1s; /*Espera para ejecutar la animation*/
+}
+
+.item:hover{
+    background-color:steelblue;
+    clip-path: circle(40% at center); /*at top left or other*/
+}

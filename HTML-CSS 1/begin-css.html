@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--En la zona del head podemos colocar codigo CSS-->
+    <style>
+        h2 {
+            color:rgb(229, 255, 0);
+            background-color: olive;
+            text-decoration: underline;
+        }
+    </style>   
+    <!--Para referenciar a un archivo CSS colocamos esta linea con la ubicacion del archivo-->
+    <link rel="stylesheet" type="text/css" href="css/begin.css">
+    <title>CSS Classes 1</title>
+</head>
+<body>
+    <h1>Hola Mundo!</h1>
+    <p>Texto con estilo desde un archivo css.</p>
+
+    <!--Podemos realizar tipos de estilos dentro de los tags de HTML-->
+    <h3 style="color: green; text-decoration: underline;">Todavia vivo!</h3>
+    <pre style="font-size: 25px; font-family: 'Trebuchet MS';">Texto con style en el codigo.</pre>
+    
+    <!--Podemos realizar combinaciones tipo herencia y generar especificaciones particulares 
+    en otros tags.  En este caso span no hereda el stilo definido por el div-->
+    <div style="border: 3px dotted blue;">
+        <h4 style="color: midnightblue;">Ejemplo de div y span.</h4>
+         <p>
+          Esto es un párrafo dentro de un div,
+           <span style="color: red;"> y esto un span dentro de un párrafo. </span>
+         </p>
+    </div>
+    
+    <!--Linea con un stilo en la zona del head del DOM actual-->
+    <h2>Este texto tiene un css en el head.</h2>
+
+    <!---->
+    <div style="border: 3px solid orange; border-radius:30px">
+        <ul style="color: forestgreen;">
+            <li id="lista_uno">Lista con modificacion CSS.</li>
+            <li id="lista_dos" style="color: mediumseagreen;">Lista con modificacion CSS.</li>
+            <li id="lista_tres">Lista con modificacion CSS.</li>
+            <li id="lista_cuatro" style="color: hotpink">
+                Lista con modificacion CSS.
+            </li>
+        </ul>
+        <p>Esto es otro parrafo.</p>
+    </div>  
+
+    <!--Valoracion de css con argumentos tipo atributo = valor-->
+    <div data-color="red">Esto tendra un color especifico de css</div>
+    <div data-color="green">Esto tendra un color especifico de css</div>
+    <div data-background="red">Esto no.</div>
+
+    <!--Valoracio de cc cuando el attributo se encuentra en cualquier lugar-->
+    <div class="foo-123">Esto tendra un color especifico de css</div>
+    <div class="foo123">Esto tendra un color especifico de css</div>
+    <div class="bar123foo">Esto tendra un color especifico de css</div>
+    <div class="barfooo123">Esto tendra un color especifico de css</div>
+    <div class="barfo0">Esto no.</div>
+    
+    <!--Se verifica la influencia de un tag con un subtag hasta que este termina-->
+    <div>
+        <p>Texto con una influencia css en el color.</p>
+        <section>
+        <p>Texto con una influencia css en el color.</p>
+        </section>
+    </div>
+
+    <p>Texto fuera de la influencia css en el color.</p>
+
+</body>
+</html>

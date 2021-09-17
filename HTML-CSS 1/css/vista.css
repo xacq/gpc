@@ -1,0 +1,21 @@
+
+.half-circle{
+    float: left;
+    shape-outside: circle(50% at 0 50%);
+    clip-path: circle(50% at 0 50%);
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(#58C2ED, #1B85DC);
+    margin-right: 40px;
+        }
+
+.polygono{
+    float: left;
+    shape-outside: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(#fdd394, #ff6004);
+    margin-right: 40px;
+}
+        

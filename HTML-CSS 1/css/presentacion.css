@@ -1,0 +1,75 @@
+
+:root{
+    --clippy: polygon(0 0, 0 0, 0% 100%, 0% 100%); /*Custom property desde https://bennettfeely.com/clippy/*/
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f2f2f2;
+    height:100vh;
+    display:flex;
+}
+
+.texts{
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.name{
+    font-size: 3rem;
+    margin-bottom: .5em;
+}
+
+.parrafo{
+    font-size: 2rem;
+    font-weight: 300;
+    --clippy:circle(0% at 50% 50%);/*alteramos el valor dentro de la clase parrafo*/
+}   
+
+.item{
+    position: relative;
+    padding-left: 1rem;
+    transition: color .1s;
+}
+
+.item::before{
+    content: "";
+    display: block;
+    background: slateblue;
+    width: 120%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    clip-path: var(--clippy);
+
+    transition-property: clip-path; /*atrapa el evento*/
+    transition-duration: 2s;
+}
+
+.parrafo::before{
+    background: #f86d70;
+}
+
+.name:hover::before{
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+}
+
+.name:hover + .parrafo::before{
+    clip-path: circle(100% at 50% 50%);
+    transition: clip-path 1s .2s;
+}
+
+.name:hover,
+.name:hover + .parrafo{
+    color: aqua;
+}

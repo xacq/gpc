@@ -1,0 +1,35 @@
+body{
+    align-items: center;
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    margin:0px;
+}
+
+.spinner{
+    animation: spin 1s linear infinite;
+    background: linear-gradient(
+        to right,#2cd8d5, #8e37d7);
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    position:relative;
+}
+
+.fondo{
+    background:white;
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+    position:absolute;
+    border-radius: 50%;
+}
+
+@keyframes spin{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}

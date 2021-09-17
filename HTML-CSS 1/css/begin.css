@@ -1,0 +1,43 @@
+h1 {
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+p {
+font-size: 25px;
+font-family: 'Courier', sans-serif;
+}
+
+#lista_uno{
+    list-style-type: disc;/*Tipos de stilos: disc,circle,square,decimal,lower-roman,upper-roman,none*/
+    list-style-position: outside;/*inside or outside*/
+    /*list-style-image: url(/graph_small.png);*/
+   }
+#lista_dos{
+    list-style-type: square;/*Tipos de stilos: disc,circle,square,decimal,lower-roman,upper-roman,none*/
+    list-style-position: inside;/*inside or outside*/
+    /*list-style-image: url(/graph_small.png);*/
+   }
+#lista_tres{
+    list-style-type: circle;/*Tipos de stilos: disc,circle,square,decimal,lower-roman,upper-roman,none*/
+    list-style-position: outside;/*inside or outside*/
+    /*list-style-image: url(/graph_small.png);*/
+   }
+#lista_cuatro{
+    list-style-type: decimal;/*Tipos de stilos: disc,circle,square,decimal,lower-roman,upper-roman,none*/
+    list-style-position: inside;/*inside or outside*/
+    /*list-style-image: url(/graph_small.png);*/
+   }
+
+   div[data-color] {
+    color: rgb(119, 0, 255);
+   }
+
+   [class*="foo"] {
+    color: rgb(0, 255, 191);
+   }
+
+   div p {
+    color:red;
+   }
+   
