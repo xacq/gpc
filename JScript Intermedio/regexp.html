@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio JS 003</title>
+</head>
+<body>
+    
+    <h1>Validacion de expresiones</h1>
+
+    <script type="text/javascript">
+        var banda = "A/CD/C"; // si encuentra el valor a buscar retorna la ubicacion de la expresion encontrada en primer lugar caso contrario devuele -1
+        var regexp0 = /\//g;
+        console.log(banda.search(regexp0));
+
+        var texto = "hola mundo9";// verifica que todos sean caracteres si hay un numero sera la respuesta false
+        var regexp1 = /^[a-z]$/g;
+        console.log(regexp1.test(texto));
+
+        var texto2 = "hola";// verifica que solo la ultima parte de la palabra cambie representada por . pero que la estructura sea siempre la misma hol....   
+        var regexp2 = /hol./
+        console.log(regexp2.test(texto2));
+
+        var textp3 = "bienvenido"; //verifica si es singular o plural (termina en s)
+        var regexp3 = /s+$/g;
+        console.log(regexp3.test(texto3));
+
+    </script>
+
+</body>
+</html>

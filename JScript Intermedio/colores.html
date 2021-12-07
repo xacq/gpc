@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio JS 001</title>
+</head>
+<body>
+    <h1 style="text-align: center;">FONDOS ALEATORIOS</h1>
+        <button id="cambiarFondo">Cambiar Fondo</button>
+        <h2>El codigo RGB del color de fondo es <p style="text-align:center;"></p></h2>
+    <!--TRABAJO CON EVENTOS-->
+        <script>
+            function random(max){
+                return Math.round(Math.random()*max);
+            }
+            var boton = document.getElementById("cambiarFondo");// creamos el objeto que contendra los valores del elemento
+            boton.addEventListener("click",function(evento){
+            //boton.addEventListener("mousemove",function(evento){
+                random_color=[random(255),random(255),random(255)]; //array que carga la combinacion de colores RGB
+                document.body.style.backgroundColor="rgb("+random_color[0]+","+random_color[1]+","+random_color[2]+")";
+                var parrafo = document.getElementsByTagName('p');// al llamar por tag carga en un array
+                parrafo[0].textContent = "rgb("+random_color[0]+","+random_color[1]+","+random_color[2]+")";//muestra el codigo del color en p
+            });
+        </script>
+</body>
+</html>
