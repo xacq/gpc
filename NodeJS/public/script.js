@@ -1,0 +1,1 @@
+console.log ('Mostramos un archivo estatico de JS')
