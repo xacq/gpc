@@ -1,0 +1,9 @@
+G:\Xavier\GPC\GPC20213\VB2010\AplicacionPrincipal\AplicacionPrincipal\bin\Debug\AplicacionPrincipal.exe
+G:\Xavier\GPC\GPC20213\VB2010\AplicacionPrincipal\AplicacionPrincipal\bin\Debug\AplicacionPrincipal.pdb
+G:\Xavier\GPC\GPC20213\VB2010\AplicacionPrincipal\AplicacionPrincipal\bin\Debug\AplicacionPrincipal.xml
+G:\Xavier\GPC\GPC20213\VB2010\AplicacionPrincipal\AplicacionPrincipal\obj\x86\Debug\AplicacionPrincipal.Form1.resources
+G:\Xavier\GPC\GPC20213\VB2010\AplicacionPrincipal\AplicacionPrincipal\obj\x86\Debug\AplicacionPrincipal.Resources.resources
+G:\Xavier\GPC\GPC20213\VB2010\AplicacionPrincipal\AplicacionPrincipal\obj\x86\Debug\AplicacionPrincipal.vbproj.GenerateResource.Cache
+G:\Xavier\GPC\GPC20213\VB2010\AplicacionPrincipal\AplicacionPrincipal\obj\x86\Debug\AplicacionPrincipal.exe
+G:\Xavier\GPC\GPC20213\VB2010\AplicacionPrincipal\AplicacionPrincipal\obj\x86\Debug\AplicacionPrincipal.xml
+G:\Xavier\GPC\GPC20213\VB2010\AplicacionPrincipal\AplicacionPrincipal\obj\x86\Debug\AplicacionPrincipal.pdb
