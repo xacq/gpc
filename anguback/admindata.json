@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "62ea906d26ba3d387c7ef83b"
+  },
+  "name": "administrador",
+  "email": "admin@diamontech.com",
+  "password": "$2a$10$pmZejAU2pPR6bi0MjqZ7kuALIay5PotmzOsyNXKU8lOAfyZvHCH/C",
+  "type": "admin",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1659539565420"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1659539565420"
+    }
+  },
+  "__v": 0
+}]
