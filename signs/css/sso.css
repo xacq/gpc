@@ -1,0 +1,70 @@
+body {
+      background: #e8eaf6  ;
+}
+
+.upper{
+      text-transform: uppercase;
+}
+
+.lower{
+      text-transform: lowercase;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+color: #001f1f!important;
+}
+.input-field input[type=email]:focus + label {
+color: #001f1f!important;
+}
+.input-field input[type=number]:focus + label {
+color: #001f1f!important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+border-bottom: 1px solid #001f1f!important;
+box-shadow: 0 1px 0 0 #001f1f!important;
+}
+/* valid color */
+.input-field input[type=text].valid {
+border-bottom: 1px solid #001f1f!important;
+box-shadow: 0 1px 0 0 #001f1f!important;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+border-bottom: 2px solid orange!important;
+box-shadow: 0 1px 0 0 #001f1f!important;
+}
+
+/* label underline focus color */
+.input-field input[type=email]:focus {
+border-bottom: 1px solid #001f1f!important;
+box-shadow: 0 1px 0 0 #001f1f!important;
+}
+/* valid color */
+.input-field input[type=email].valid {
+border-bottom: 1px solid #001f1f!important;
+box-shadow: 0 1px 0 0 #001f1f!important;
+}
+/* invalid color */
+.input-field input[type=email].invalid {
+border-bottom: 2px solid orange!important;
+box-shadow: 0 1px 0 0 #001f1f!important;
+}
+
+/* label underline focus color */
+.input-field input[type=number]:focus {
+border-bottom: 1px solid #001f1f!important;
+box-shadow: 0 1px 0 0 #001f1f!important;
+}
+/* valid color */
+.input-field input[type=number].valid {
+border-bottom: 1px solid #001f1f!important;
+box-shadow: 0 1px 0 0 #001f1f!important;
+}
+/* invalid color */
+.input-field input[type=number].invalid {
+border-bottom: 2px solid orange!important;
+box-shadow: 0 1px 0 0 #001f1f!important;
+}
+
