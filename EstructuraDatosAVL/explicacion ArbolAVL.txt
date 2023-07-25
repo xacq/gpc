@@ -1,0 +1,27 @@
+    Clase NodoAVL: Representa un nodo del árbol. Cada nodo tiene una clave (valor), un atributo de altura, y referencias a los nodos izquierdo y derecho.
+
+    Clase ArbolAVL: Representa el árbol AVL y contiene varias funciones para su manipulación.
+
+Funciones importantes en la clase ArbolAVL:
+
+    _altura(nodo): Esta función calcula y devuelve la altura de un nodo dado. La altura de un nodo es la longitud del camino más largo desde el nodo hasta una hoja.
+
+    _actualizar_altura(nodo): Esta función actualiza la altura de un nodo en función de las alturas de sus hijos.
+
+    _factor_balance(nodo): Esta función calcula el factor de balance de un nodo, que es la diferencia entre las alturas de sus subárboles izquierdo y derecho.
+
+    _rotar_izquierda(z): Realiza una rotación hacia la izquierda en el subárbol con raíz en el nodo z. Esta rotación se utiliza para balancear el árbol cuando está desequilibrado hacia la derecha.
+
+    _rotar_derecha(y): Realiza una rotación hacia la derecha en el subárbol con raíz en el nodo y. Esta rotación se utiliza para balancear el árbol cuando está desequilibrado hacia la izquierda.
+
+    _rebalancear(nodo): Esta función se encarga de rebalancear el árbol cuando se inserta o elimina un nodo y el árbol pierde su propiedad de equilibrio.
+
+    insertar(clave): Esta función inserta un nuevo nodo con la clave dada en el árbol AVL.
+
+    eliminar(clave): Esta función elimina un nodo con la clave dada del árbol AVL.
+
+    buscar(clave): Esta función busca un nodo con la clave dada en el árbol AVL y devuelve el nodo si se encuentra o None si no se encuentra.
+
+    imprimir_arbol(): Esta función imprime el árbol en la terminal.
+
+La función main instancia un objeto de la clase ArbolAVL, agrega elementos al árbol, imprime el árbol resultante, luego elimina un nodo específico y vuelve a imprimir el árbol después de la eliminación. Finalmente, busca un nodo con una clave específica y muestra si se encuentra o no en el árbol.
