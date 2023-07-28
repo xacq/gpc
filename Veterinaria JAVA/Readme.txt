@@ -1,0 +1,1 @@
+Se necesita instalar la libreria jfreechart.jar en las depeedencias del sistema par poder visualizar el proyecto de grafica de barras.

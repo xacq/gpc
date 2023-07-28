@@ -1,0 +1,7 @@
+Ingresos a Aplicacion: 146
+Ingresos a Menú Doctor: 103
+Ingresos a Menú Clientes: 34
+Ingresos a Menú Mascotas: 25
+Ingresos a Menú Cursos: 14
+Ingresos a Menú Remedios: 28
+Ingresos a Menú Consultas: 42
