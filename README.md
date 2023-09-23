@@ -1,9 +1,6 @@
-# gpc
-Que tal...
+# PROYECTOS WEB DE GREEN PC
 
-En este repositorio de Git Hub va a encontrar proyectos sobre tecnologias como JAVA, Python, JavaScript, PHP, ML, AI, C++ y otros Stack.
+En este repositorio vas a encontrar proyectos sobre tecnologias como JAVA, Python, JavaScript, PHP, ML, AI, C++ y otros mas.  Espero que sea de ayuda las buenas practicas de programación incorporadas en los mismos.
 
-Espero que sea de ayuda las buenas practicas de programación incorporadas en los mismos.
-
-Green PC.
-2022
+Xavier Calvas
+2023
