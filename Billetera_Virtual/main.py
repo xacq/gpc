@@ -34,7 +34,8 @@ else:
 
 # PROCESO PARA RECUPERAR EN LINEA LOS DATOS DEL API DESDE EL SERVER DE COINMARKETCAP
 # LLAVE DE LA API QUE LOGRA PETICIONES A LA DIRECCION URL DE COINMARKETCAP
-API_KEY = "c0cbebee-21f4-44cc-8d59-bcb993490e45"
+# https://pro.coinmarketcap.com/
+API_KEY = "7766f4ee-4fdc-44d0-8392-27454715cca5"
 # CABECERA PARA LA CONEXION CON EL API DE COINMARKET JUNTO CON PARAMETROS
 headers = {
     # FORMATO DE RESPUESTA DE LA API EN JSON
@@ -104,7 +105,6 @@ if valor_menu == "in":
     5   Registro de Movimientos.
     6   Actualizacion de Codigo para Transacciones.
     7   Salir.
-    
         Opcion a escoger: ''')
 
     while not int(valor_menu) in range(1, 8):  # LOOP QUE EXIGE QUE SEAN OPCIONES DESDE EL 1 AL 7
